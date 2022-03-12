@@ -6,7 +6,7 @@
     <div class="list-group list-reset">
         <a *ngFor="let item of getHistorial" 
         href="#" class="list-group-item list-group-item-action">
-            {{item}}
+            {{item | titlecase }} <!-- pipe para capitalizar palabras -->
         </a>
     </div>
 </div>
