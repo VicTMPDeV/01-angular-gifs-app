@@ -1,8 +1,11 @@
+/*INTERFACES GENERADAS EN QUICKTYPE.IO USANDO COMO BASE
+LA RESPUESTA DEL ENDPOINT DE BÚSQUEDA DE LA API DE GIPHY*/
+
 export interface SearchGifsResponse {
     data:       gifData[];
     pagination: Pagination;
     meta:       Meta;
-}
+} 
 
 export interface gifData {
     type:                       Type;
