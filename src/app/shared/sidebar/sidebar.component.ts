@@ -14,5 +14,9 @@ export class SidebarComponent {
   public get getHistorial() : string[] {
     return this.gifsService.getHistorial;
   }
+
+  public recuperarBusquedaAnterior( item: string ){
+    this.gifsService.buscarGifs(item);
+  }
   
 }

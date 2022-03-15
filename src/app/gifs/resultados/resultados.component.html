@@ -1,7 +1,7 @@
 <div class="row">
-    <div *ngFor="let gifItem of getResultados" class="col-md-4 col-sm-6">
-        <div class="card">
-            <img [src]="gifItem.images.downsized_medium.url" [alt]="gifItem.title" class="card-img-top"/>
+    <div *ngFor="let gifItem of getResultados" class="col-md-4 col-sm-6 p-1 animate__animated animate__fadeIn animate__slow">
+        <div class="card h-100">
+            <img [src]="gifItem.images.downsized_medium.url" [alt]="gifItem.title" class="card-body"/>
             <div class="card-body">
                 <p class="card-text">
                     {{gifItem.title}}

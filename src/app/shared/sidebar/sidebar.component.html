@@ -1,12 +1,22 @@
 <div class="bg-dark border-right p-3" id="sidebar">
     <h3 class="text-light">
-        Gifs-App
-    </h3>
-    <hr class="text-light" />
-    <div class="list-group list-reset">
-        <a *ngFor="let item of getHistorial" 
-        href="#" class="list-group-item list-group-item-action">
-            {{item | titlecase }} <!-- pipe para capitalizar palabras -->
+        <a href="https://github.com/VicTMPDeV">
+            <img src="https://i.imgur.com/h3xpMSRm.jpg" title="source: imgur.com"/>
         </a>
+    </h3>
+    <div *ngIf="getHistorial.length >= 1">
+        <hr class="text-light" />
+        <h3 class="text-light text-center">
+            Historial de Búsqueda
+        </h3>
+        <hr class="text-light" />
+        <div class="list-group list-reset">
+            <a *ngFor="let item of getHistorial" 
+                href="#" 
+                (click)="recuperarBusquedaAnterior(item)"
+                class="list-group-item list-group-item-action">
+                {{item | titlecase }} <!-- pipe para capitalizar palabras -->
+            </a>
+        </div>
     </div>
 </div>
