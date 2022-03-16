@@ -1,4 +1,4 @@
-#**Gifs App**
+## Gifs App
 
 This is my very first Angular project. It's not complete yet, but most of functionality is.
 
@@ -7,6 +7,8 @@ It's deployed using Netlify at https://victorgifs.netlify.app/
 So I invite you to try it and let me know the errors and improvements so that I can learn from my mistakes.
 
 ------------
+
+## Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
 
