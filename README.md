@@ -8,8 +8,9 @@ So I invite you to try it and let me know the errors and improvements so that I 
 
 TODO
 ------------
-Implement pagination for showing next and previous page
-Improve CSS for responsive interface
+Implement pagination for showing next and previous page.
+
+Improve CSS for responsive interface.
 
 ------------
 
