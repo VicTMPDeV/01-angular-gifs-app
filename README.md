@@ -6,6 +6,11 @@ It's deployed using Netlify at https://victorgifs.netlify.app/
 
 So I invite you to try it and let me know the errors and improvements so that I can learn from my mistakes.
 
+TODO
+------------
+Implement pagination for showing next and previous page
+Improve CSS for responsive interface
+
 ------------
 
 ## Angular
